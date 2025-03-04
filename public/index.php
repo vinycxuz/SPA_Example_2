@@ -65,7 +65,7 @@
 <body>
   <header>
     <h3>Name</h3>
-    <img src="" alt="Logo"/>
+    <img src="./images/icon-frontend-mentor.svg" alt="Logo"/>
   </header>
   <div class="menu">
     <div class="menu-text">
@@ -105,45 +105,49 @@
   </div>
   <div class="project-container">
     <div>
-      <h1>Project Title</h1>
-      <button>Contact Me</button>
+      <h1>Projects</h1>
+      <button>CONTACT ME</button>
     </div>
     <div class="box-project">
       <div class="project">
-        <img src="" alt=""/>
+        <img src="./images/thumbnail-project-1-small.webp" alt=""/>
         <h3>Project Title</h3>
         <p>Project Description</p>
       </div>
       <div class="project">
-        <img src="" alt=""/>
+        <img src="./images/thumbnail-project-2-small.webp" alt=""/>
         <h3>Project Title</h3>
         <p>Project Description</p>
       </div>
       <div class="project">
-        <img src="" alt=""/>
+        <img src="./images/thumbnail-project-3-small.webp" alt=""/>
         <h3>Project Title</h3>
         <p>Project Description</p>
       </div>
       <div class="project">
-        <img src="" alt=""/>
+        <img src="./images/thumbnail-project-4-small.webp" alt=""/>
         <h3>Project Title</h3>
         <p>Project Description</p>
       </div>
       <div class="project">
-        <img src="" alt=""/>
+        <img src="./images/thumbnail-project-5-small.webp" alt=""/>
         <h3>Project Title</h3>
         <p>Project Description</p>
       </div>
       <div class="project">
-        <img src="" alt=""/>
+        <img src="./images/thumbnail-project-6-small.webp" alt=""/>
         <h3>Project Title</h3>
         <p>Project Description</p>
       </div>  
     </div>
   </div>
-  <main>
+  <footer>
   <div class="form_container">
-    <h2>Cadastro de Corretor</h2>
+    <div class="form-text">
+      <h1>Contact</h1>
+      <p>I would love to hear about your project and how I could help. Please fill in the form, nad I'LL get back to your as soon as possible.</p>
+    </div>
+    <div>  
       <form action="<?php echo $_SERVER['PHP_SELF'] ?>" method="post">
         <div class="input-number_container">
           <input class="input-email" type="text" name="email" placeholder="Digite seu email">
@@ -152,20 +156,15 @@
         <button type="submit" value="Submit">Enviar</button>
       </form>
     </div>
+    </div>
     <table>
       <tr>
         <th>Email</th>
         <th>Nome</th>
       </tr>
-      <?php
-        $sql = "SELECT * FROM corretor";
-        $stmt = $pdo->query($sql);
-        while ($row = $stmt->fetch()) {
-          echo "<tr><td>".$row['email']."</td><td>".$row['nome']."</td><td>" . "<a href='index.php?delete_id=".$row['id']."'>Deletar</a></td><td> <a href='edit.php?id=".$row['id']."'>Editar</a></td></tr>";
-        }
-      ?>
+      
     </table>
-  </main>
+  </footer>
 
   <script src="js/script.js"></script>
 </body>

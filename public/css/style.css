@@ -1,7 +1,13 @@
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('./fonts/static/SpaceGrotesk-Bold.ttf') format('ttf');
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Space Grotesk', sans-serif;
 }
 
 :root {
@@ -13,7 +19,7 @@
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Space Grotesk';
     background-color: var(--primary-color);
     color: var(--light-color);
 }
@@ -59,13 +65,14 @@ header {
 
 button {
   border: none;
-  border-bottom: 4px solid var(--secondary-color);
+  border-bottom: 3px solid var(--secondary-color);
   background-color: var(--primary-color);
   color: var(--light-color);
-  font-size: 16px;
+  font-size: 18px;
+  font-weight: bold;
   cursor: pointer;
   width: 120px;
-  padding-bottom: 5px;
+  height: 38px;
 }
 
 .skills-container {
@@ -92,4 +99,61 @@ button {
 .skills-container div p {
   font-size: 18px;
   color: #d9d9d9;
+}
+
+.project-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: auto;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 10%;
+}
+
+.project-container > div {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  align-items: center;
+}
+
+.project-container > div > h1 {
+  font-size: 88px;
+}
+
+.box-project {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+  height: auto;
+  margin-bottom: 50px;
+}
+
+.project img {
+  margin-bottom: 15px;
+}
+
+.project h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60%;
+  background-color: var(--success-color);
+  color: var(--light-color);
 }
