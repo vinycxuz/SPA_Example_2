@@ -25,4 +25,71 @@ header {
     padding: 20px 50px;
     margin-left: 10%;
     margin-right: 10%;
+    margin-bottom: 20px;
+}
+
+.menu {
+  display: flex;
+  width: 90%;
+  height: 60%;
+  margin-left: 10%;
+  margin-right: 10%;
+  align-items: flex-start;
+}
+
+.menu-text {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin-top: 10%;
+}
+
+.menu-text h1 {
+  font-size: 72px;
+  margin-bottom: 30px;
+}
+
+.menu-text p {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #d9d9d9;
+  margin-bottom: 30px;
+  width: 50%;
+}
+
+button {
+  border: none;
+  border-bottom: 4px solid var(--secondary-color);
+  background-color: var(--primary-color);
+  color: var(--light-color);
+  font-size: 16px;
+  cursor: pointer;
+  width: 120px;
+  padding-bottom: 5px;
+}
+
+.skills-container {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  height: 30%;
+  margin-left: 10%;
+  flex-wrap: wrap;
+}
+
+.skills-container div {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  height: 15%;
+}
+
+.skills-container div h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.skills-container div p {
+  font-size: 18px;
+  color: #d9d9d9;
 }

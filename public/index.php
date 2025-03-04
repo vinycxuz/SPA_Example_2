@@ -71,7 +71,7 @@
     <div class="menu-text">
       <h1>Nice to meet you!<br>I'm Name</br></h1>
       <p>Based in the Brazil, I'm whatever passionate about building accessible apps that users love.</p>
-      <button>Contact me</button>
+      <button>CONTACT ME</button>
     </div>
     <div class="menu-image">
       <img src="" alt=""/>
@@ -79,28 +79,28 @@
   </div>
   <div class="skills-container">
     <div>
-      <h2>My Work</h2>
-      <p>Here are a few design projects I've worked on recently. Want to see more? Email me.</p>
+      <h2>Skill</h2>
+      <p>X Years Experience </p>
     </div>
     <div>
-      <h2>My Work</h2>
-      <p>Here are a few design projects I've worked on recently. Want to see more? Email me.</p>
+      <h2>Skill</h2>
+      <p>X Years Experience </p>
     </div>
     <div>
-      <h2>My Work</h2>
-      <p>Here are a few design projects I've worked on recently. Want to see more? Email me.</p>
+      <h2>Skill</h2>
+      <p>X Years Experience </p>
     </div>
     <div>
-      <h2>My Work</h2>
-      <p>Here are a few design projects I've worked on recently. Want to see more? Email me.</p>
+      <h2>Skill</h2>
+      <p>X Years Experience </p>
     </div>
     <div>
-      <h2>My Work</h2>
-      <p>Here are a few design projects I've worked on recently. Want to see more? Email me.</p>
+      <h2>Skill</h2>
+      <p>X Years Experience </p>
     </div>
     <div>
-      <h2>My Work</h2>
-      <p>Here are a few design projects I've worked on recently. Want to see more? Email me.</p>
+      <h2>Skill</h2>
+      <p>X Years Experience </p>
     </div>
   </div>
   <div class="project-container">
