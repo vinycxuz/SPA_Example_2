@@ -63,6 +63,84 @@
   <title>Document</title>
 </head>
 <body>
+  <header>
+    <h3>Name</h3>
+    <img src="" alt="Logo"/>
+  </header>
+  <div class="menu">
+    <div class="menu-text">
+      <h1>Nice to meet you!<br>I'm Name</br></h1>
+      <p>Based in the Brazil, I'm whatever passionate about building accessible apps that users love.</p>
+      <button>Contact me</button>
+    </div>
+    <div class="menu-image">
+      <img src="" alt=""/>
+    </div>
+  </div>
+  <div class="skills-container">
+    <div>
+      <h2>My Work</h2>
+      <p>Here are a few design projects I've worked on recently. Want to see more? Email me.</p>
+    </div>
+    <div>
+      <h2>My Work</h2>
+      <p>Here are a few design projects I've worked on recently. Want to see more? Email me.</p>
+    </div>
+    <div>
+      <h2>My Work</h2>
+      <p>Here are a few design projects I've worked on recently. Want to see more? Email me.</p>
+    </div>
+    <div>
+      <h2>My Work</h2>
+      <p>Here are a few design projects I've worked on recently. Want to see more? Email me.</p>
+    </div>
+    <div>
+      <h2>My Work</h2>
+      <p>Here are a few design projects I've worked on recently. Want to see more? Email me.</p>
+    </div>
+    <div>
+      <h2>My Work</h2>
+      <p>Here are a few design projects I've worked on recently. Want to see more? Email me.</p>
+    </div>
+  </div>
+  <div class="project-container">
+    <div>
+      <h1>Project Title</h1>
+      <button>Contact Me</button>
+    </div>
+    <div class="box-project">
+      <div class="project">
+        <img src="" alt=""/>
+        <h3>Project Title</h3>
+        <p>Project Description</p>
+      </div>
+      <div class="project">
+        <img src="" alt=""/>
+        <h3>Project Title</h3>
+        <p>Project Description</p>
+      </div>
+      <div class="project">
+        <img src="" alt=""/>
+        <h3>Project Title</h3>
+        <p>Project Description</p>
+      </div>
+      <div class="project">
+        <img src="" alt=""/>
+        <h3>Project Title</h3>
+        <p>Project Description</p>
+      </div>
+      <div class="project">
+        <img src="" alt=""/>
+        <h3>Project Title</h3>
+        <p>Project Description</p>
+      </div>
+      <div class="project">
+        <img src="" alt=""/>
+        <h3>Project Title</h3>
+        <p>Project Description</p>
+      </div>  
+    </div>
+  </div>
   <main>
   <div class="form_container">
     <h2>Cadastro de Corretor</h2>
