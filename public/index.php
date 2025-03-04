@@ -18,20 +18,20 @@
 
     if (!empty($email) && !empty($nome)) {
       try {
-        $sql = "CREATE TABLE IF NOT EXISTS corretor (
+        $sql = "CREATE TABLE IF NOT EXISTS leads (
                 id INT AUTO_INCREMENT PRIMARY KEY,
                 email VARCHAR(80),
                 nome VARCHAR(80)
             )";
         $pdo->exec($sql);
     
-        $sql = "INSERT INTO corretor (email, nome) VALUES (:email, :nome)";
+        $sql = "INSERT INTO leads (email, nome) VALUES (:email, :nome)";
         $stmt = $pdo->prepare($sql);
         $stmt->bindValue(':email', $email);
         $stmt->bindValue(':nome', $nome);
         $stmt->execute();
         
-        echo "<div class=\"box-message\"><div><p class=\"sucess\">Corretor cadastrado com sucesso!</p></div></div>";
+        echo "<div class=\"box-message\"><div><p class=\"sucess\">Enviado com sucesso!</p></div></div>";
         header("Location: " . $_SERVER['PHP_SELF'] . "?success=true");
         exit();
       } catch(PDOException $e) {
@@ -40,18 +40,7 @@
     } else {
       echo "<div class=\"box-message\"><div><p>Preencha o formulário corretamente.</p></div></div>";
     }
-  } elseif (isset($_GET['delete_id'])) {
-    $delete_id = $_GET['delete_id'];
-    try {
-        $sql = "DELETE FROM corretor WHERE id = :id";
-        $stmt = $pdo->prepare($sql);
-        $stmt->bindValue(':id', $delete_id);
-        $stmt->execute();
-        echo "<div class=\"box-message\"><div><p class=\"sucess\">Corretor deletado com sucesso!</p></div></div>";
-    } catch(PDOException $e) {
-        echo "Erro ao deletar: " . $e->getMessage();
-    }
-}
+  } 
 ?>
 
 <!DOCTYPE html>
