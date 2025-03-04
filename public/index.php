@@ -142,28 +142,19 @@
     </div>
   </div>
   <footer>
-  <div class="form_container">
-    <div class="form-text">
-      <h1>Contact</h1>
-      <p>I would love to hear about your project and how I could help. Please fill in the form, nad I'LL get back to your as soon as possible.</p>
+    <div class="form-container">
+      <div class="form-text form-box">
+        <h1>Contact</h1>
+        <p>I would love to hear about your project and how I could help. Please fill in the form, nad I'LL get back to your as soon as possible.</p>
+      </div>
+      <div class="form form-box">  
+        <form action="<?php echo $_SERVER['PHP_SELF'] ?>" method="post">
+          <input class="input input-email" type="text" name="email" placeholder="EMAIL">
+          <input type="text" class="input input-name" name="nome" placeholder="NAME">
+          <button type="submit" value="Submit" class="button-form">SEND MESSAGE</button>
+        </form>
+      </div>
     </div>
-    <div>  
-      <form action="<?php echo $_SERVER['PHP_SELF'] ?>" method="post">
-        <div class="input-number_container">
-          <input class="input-email" type="text" name="email" placeholder="Digite seu email">
-        </div>
-        <input type="text" class="input-name" name="nome" placeholder="Digite seu nome">
-        <button type="submit" value="Submit">Enviar</button>
-      </form>
-    </div>
-    </div>
-    <table>
-      <tr>
-        <th>Email</th>
-        <th>Nome</th>
-      </tr>
-      
-    </table>
   </footer>
 
   <script src="js/script.js"></script>

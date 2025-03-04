@@ -157,3 +157,78 @@ footer {
   background-color: var(--success-color);
   color: var(--light-color);
 }
+
+.form-container {
+  display: flex;
+  width: 80%;
+  height: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.form-box{
+  width: 50%;
+}
+
+.form-text {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: auto;
+  margin-right: 25%;
+}
+
+.form-text > h1 {
+  font-size: 88px;
+  margin-bottom: 30px;
+}
+
+.form-text > p {
+  font-size: 18px;
+}
+
+.form-box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+}
+
+.form-box > form {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+
+.input {
+  background-color: var(--success-color);
+  color: var(--info-color);
+  font-size: 18px;
+  margin-bottom: 15px;
+  border: none;
+  border-bottom: 3px solid var(--info-color);
+  padding: 10px;
+}
+
+.button-form {
+  border: none;
+  border-bottom: 3px solid var(--secondary-color);
+  background-color: var(--success-color);
+  color: var(--light-color);
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 142px;
+  height: 38px;
+}
+
+.footer-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 20px;
+  background-color: var(--success-color);
+}
